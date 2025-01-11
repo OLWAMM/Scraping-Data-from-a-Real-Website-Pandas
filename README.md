@@ -11,4 +11,10 @@ This project uses Python to scrape data from Wikipedia's list of the largest com
   - `beautifulsoup4`
   - `requests`
   - `pandas`
+ 
+## Steps taken
+1.Fetch the HTML content of the Wikipedia page. <br>
+2.Locate the table containing the desired data. <br>
+3.Extract column headers and row data. <br>
+4.Create a structured DataFrame using pandas.  
 
